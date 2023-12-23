@@ -1,9 +1,7 @@
-import NetworkTypes from "./NetworkTypes.jsx";
 import OperatingSystem from "./OperatingSystem.jsx";
 import RamSection from "./RamSection.jsx";
 import PriceSec from "./PriceSec.jsx";
 import SearchFilter from "./SearchFilter.jsx";
-import CategoryCarousel from "../CategoryCarousel.jsx";
 
 function Filters() {
   return (
@@ -17,7 +15,6 @@ function Filters() {
               <SearchFilter />
               <PriceSec />
 
-              <NetworkTypes />
               <OperatingSystem />
               <RamSection />
         </div>
